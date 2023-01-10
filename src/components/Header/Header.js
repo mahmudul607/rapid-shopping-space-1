@@ -4,7 +4,7 @@ import './Header.css';
 const Header = () => {
     return (
             <div className='header'>
-                <img src={logo} alt="" />
+                <img src={logo} alt="" title="Rapid Shopping Space" />
                 <nav>
                     <a href="/shop">Shop</a>
                     <a href="/review">Order Review</a>
